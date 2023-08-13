@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!--? CSS  -->
+    <link rel="stylesheet" href="/styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/styles.css" />
+    
+    <!--? ICONOS  -->
+    <script src="https://kit.fontawesome.com/899c5b95b3.js" crossorigin="anonymous"></script>
+
+    <!--? ANIMACIONES  -->
+    <link rel="stylesheet" href="/styles/aos.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
+
+    <title>&lt;Mike_Dev/&gt; Portafolio</title>
+</head>
+
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    
+    <!--* NAV  -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container flex-lg-column">
+        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+          <!--? TITIULO LOGO  -->
+          <span class="h3 fw-bold d-block d-lg-none"> Mike Reinoso</span>
+          <!--? IMAGEN PERFIL  -->
+          <img src="img/Mike.png" class="d-none d-lg-block rounded-circle" alt="Michael Reinoso">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+              <!--? LISTA NAV  -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#services">Servicios</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#work">Portafolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contact">Contacto</a>
+            </li>
+            <!--? //LISTA NAV  -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+     <!--* //NAV  -->
+
+    <!--* CONTENIDO  -->
+    <div id="content-wrapper">
+
+      <!--? INICIO  -->
+      <section id="home" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <h1 class="display-4 fw-bold" data-aos="fade-down">Codificando el  <span class="text-brand">futuro web</span></h1>
+              <p class="lead mt-2 mb-4 " data-aos="zoom-out" data-aos-delay="300">¡Hola! Soy Mike, un desarrollador web apasionado por crear experiencias en línea sorprendentes. Transformo ideas en código utilizando HTML, CSS y JavaScript, y me encanta trabajar con librerías como React y frameworks como Bootstrap. En mi tiempo libre, me gusta explorar nuevas tecnologías y contribuir a proyectos de código abierto. ¡Exploremos juntos el emocionante mundo del desarrollo web! </p>
+              <div data-aos="zoom-out-up" data-aos-delay="600">
+                <a href="#work" class="btn btn-brand me-3">Ver proyectos</a>
+              <a href="img/CV Michael Reinoso.pdf" target="_blank" class="link-custom" download="CV Michael Reinoso.pdf">Descargar Cv <i class="fa-solid fa-download"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+      </section>
+      <!--! //INICIO  -->
+
+      <!--? SERVICIOS  -->
+      <section id="services" class="full-height px-lg-5">
+        <div class="container">
+
+          <div class="row pb-4" data-aos="fade-down-right">
+            <div class="col-lg-8">
+              <h6 class="text-brand">Servicios</h6>
+              <h2>Poseo conocimientos en:</h2>
+            </div>
+          </div>
+          <!--! CARTAS SERVICIOS  -->
+          <div class="row gy-4">
+
+            <!--* COPIAR col-md-4 AÑADE SERVICIOS -->
+
+            <!--? SERVICIO 01  -->
+            <div class="col-md-4" data-aos="fade-right" data-aos-delay="350">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="fa-solid fa-paintbrush"></i>
+                </div>
+                <h4 class="mt-4 mb-2">Front-End</h4>
+                <p>
+                  Habilidad para crear interfaces atractivas y receptivas mediante HTML, CSS Y JavaScript, junto con el uso de frameworks como React, construyó experiencias web dinámicas y agradables para los usuarios.
+                </p>
+                <!-- <a href="#" class="link-custom">Leer mas  <i class="fa-solid fa-up-right-from-square"></i></a> -->
+              </div>
+            </div>
+
+            <!--? SERVICIO 02  -->
+            <div class="col-md-4" data-aos="zoom-up" data-aos-delay="650">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <h4 class="mt-4 mb-2">Back-End</h4>
+                <p>En mi experiencia abarca la creación de servidores utilizando tecnologías como Node.js y bases de datos como MySQL. Trabajo para garantizar que las funcionalidades del sistema sean sólidas y escalables.
+                </p>
+                <!-- <a href="#" class="link-custom">Leer mas  <i class="fa-solid fa-up-right-from-square"></i></a> -->
+              </div>
+            </div>
+
+            <!--? SERVICIO 03  -->
+            <div class="col-md-4" data-aos="fade-left" data-aos-delay="800">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="fa-brands fa-python"></i>
+                </div>
+                <h4 class="mt-4 mb-2">Python</h4>
+                <p>Manejo de Python junto con frameworks como Flask para crear aplicaciones web. Incluyendo páginas interactivas hasta la gestión de formularios  Mi enfoque se centra en la usabilidad y agilidad en el desarrollo.
+                </p>
+                <!-- <a href="#" class="link-custom">Leer mas  <i class="fa-solid fa-up-right-from-square"></i></a> -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!--! //SERVICIOS  -->
+
+      <!--? PROYECTOS  -->
+      <section id="work" class="full-height px-lg-5">
+        <div class="container">
+
+          <div class="row pb-4" data-aos="fade-down-right">
+            <div class="col-lg-8">
+              <h6 class="text-brand">Portafolio</h6>
+              <h2>Mis Proyectos</h2>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+
+
+            <!--! AÑADE PROYECTOS CON col-lg-6  -->
+
+            <!--? PROYECTO 01  -->
+            <div class="col-md-6" data-aos="fade-down">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="/img/work-1.png" alt="Proyecto Pokedex">
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Pokedex API</h4>
+                  <div class="icons">
+                    <i class="fa-brands fa-html5"></i> 
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-solid fa-code-merge"></i>
+                  </div>
+                  <p>Herramienta que ayuda a identificar los distintos Pokémon y características como el peso, el nombre, la altura y el tipo de Pokémon gracias a la pokeAPI. </p>
+                    <a href="https://poke-mike.netlify.app/" target="_blank" class="link-custom"> Visita Pokedex <i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+             <!--? PROYECTO 02  -->
+             <div class="col-md-6" data-aos="fade-down" >
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="/img/work-2.png" alt="Cajero digital en JavaScript">
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Cajero Automatico</h4>
+                  <div class="icons">
+                    <i class="fa-brands fa-html5"></i> 
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                  </div>
+                  <p> Sistema simulador de cajero con tres usuarios que permite Ingresar, retirar y ver el saldo en la cuenta. </p>
+                    <a href="https://cajero-js.netlify.app/" target="_blank" class="link-custom"> Visita Cajero <i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+             <!--? PROYECTO 03  -->
+             <div class="col-md-6" data-aos="fade-down">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="/img/work-3.png" alt="Clon de Pinterest">
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Pinterest Clon</h4>
+                  <div class="icons">
+                    <i class="fa-brands fa-html5"></i> 
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                  </div>
+                  <p> Página principal de búsqueda del banco de imágenes de Pinterest. <br> Realizado con CSS grid.</p>
+                    <a href="https://clon-of-pinterest.netlify.app/" target="_blank" class="link-custom"> Visita myPinterest <i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+             <!--? PROYECTO 04  -->
+             <div class="col-md-6" data-aos="fade-down">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="/img/work-4.png" alt="Intento de pagina principal buscador de Google">
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Google index</h4>
+                  <div class="icons">
+                    <i class="fa-brands fa-html5"></i> 
+                    <i class="fa-brands fa-css3-alt"></i>
+                  </div>
+                  <p> Construcción de página principal del buscador de Google. Diseñado en una versión preliminar y minimalista. </p>
+                    <a href="https://try-of-google-clon.netlify.app/" target="_blank" class="link-custom"> Visita Google Index <i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+             <!--? PROYECTO 05 -->
+             <div class="col-md-6" data-aos="fade-down" >
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="/img/work-5.png" alt="Pagina principal Game Store">
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Game/Store</h4>
+                  <div class="icons">
+                    <i class="fa-brands fa-html5"></i> 
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                  </div>
+                  <p>Proyecto tienda virtual de compra, venta y renta de consolas y videojuegos RETRO. </p>
+                    <a href="https://frontend-game-store.netlify.app/" target="_blank" class="link-custom"> Visita Pokedex <i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+             <!--? PROYECTO 06  -->
+             <div class="col-md-6" data-aos="fade-down">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="/img/work-6.png" alt="Proyecto Revista Emprender">
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Revista Emprender CO</h4>
+                  <div class="icons">
+                    <i class="fa-brands fa-html5"></i> 
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-php"></i>
+                    <i class="fa-solid fa-globe"></i>
+                  </div>
+                  <p>Este proyecto hace parte de un proyecto laboral finalizado <br> Página principal para promocionar la revista Emprendedores Colombia.</p>
+                    <a href="https://revista-emprender-co.netlify.app/" target="_blank" class="link-custom"> Visita Revista Emprender <i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+             <!--? PROYECTO 07  -->
+             <div class="col-md-6" data-aos="fade-down">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="/img/work-7.png" alt="Primer proyecto en practicas">
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Global Procurement Form</h4>
+                  <div class="icons">
+                    <i class="fa-brands fa-html5"></i> 
+                    <i class="fa-brands fa-css3-alt"></i>
+                  </div>
+                  <p>SPA que tenía como objetivo optimizar y facilitar el proceso de certificación. <br> Proyecto inconcluso por factores globales. </p>
+                    <a href="https://global-procurement.netlify.app/" target="_blank" class="link-custom"> Visita el formulario <i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+      <!--! //PROYECTOS  -->
+
+      <!--? CONTACTO  -->
+      <section id="contact" class="full-height px-lg-5">
+        <div class="container">
+
+
+          <div class="row justify-content-center text-center " >
+            <div class="col-lg-8 pb-4" data-aos="fade-down">
+              <h6 class="text-brand">Contacta Conmigo.</h6>
+              <h2>¿Te interesa que trabajemos juntos? <br> Charlemos.</h2>
+            </div>
+
+            <!--? CAJAS DE FORMULARIO  -->
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+              <form action="https://formsubmit.co/developer.maick@gmail.com" method="POST" class="row g-lg-3 gy-3">
+
+                <div class="form-group col-md-6">
+                  <input  name="text" type="text" class="form-control" placeholder="Digita tu Nombre">
+                </div>
+
+                <div class="form-group col-md-6">
+                  <input name="email" type="email" class="form-control" placeholder="Escribe tu Email">
+                </div>
+
+                <div class="form-group col-12">
+                  <input name="subject" type="text" class="form-control" placeholder="¿De que Charlamos?" >
+                </div>
+
+                <div class="form-group col-12">
+                  <textarea name="comments" rows="4" class="form-control" placeholder="Envíame un mensaje"></textarea>
+                </div>
+
+                <div class="form-group col-12 d-grid">
+                 <button type="submit" class="btn btn-brand">Contáctame</button>
+                </div>
+
+              </form>
+            </div>
+          </div>
+
+
+
+        </div>
+      </section>
+      <!--! //CONTACTO  -->
+
+      <!--? FOOTER  -->
+      <footer class="py-5 px-lg-5">
+        <div class="container">
+          <div class="row gy-4 justify-content-between">
+
+            <div class="col-auto">
+              <p class="mb-0">Copyright © &lt;Michael Reinoso/&gt; Website </p>
+            </div>
+
+            <div class="col-auto">
+              <div class="social-icons">
+                <!--? REDES SOCIALES  -->
+                <a href="https://www.linkedin.com/in/maickreinoso-desarrolladorfrontend/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #5eccf7"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=573114502476&text=Hola%20Mike%20,%20vi%20tu%20numero%20en%20el%20link%20de%20tu%20CV%20y%20quisiera%20contactar%20contigo%20" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #1fd64d;"></i></a>
+                <a href="https://github.com/MaickR" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+      <!--! //FOOTER  -->
+
+    </div>
+    <!--* //CONTENIDO  -->
+
+
+    <script src="/scripts/aos.js"></script>
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/bootstrap.bundle.min.js"></script>
+  </body>
+
+
+</html>
